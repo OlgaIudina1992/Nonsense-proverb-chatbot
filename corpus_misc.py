@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import nltk
+nltk.download('punkt')
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
