@@ -1,9 +1,6 @@
 import string
-import re
-
 import nltk
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer, PorterStemmer
+from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
 ### Animal corpus ###

@@ -1,12 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
-
 import string
 import re
-
 import nltk
 from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer, PorterStemmer
+from nltk.stem import WordNetLemmatizer
 
 ### Rossetti corpus ###
 build_response = requests.get('https://www.gutenberg.org/cache/epub/19188/pg19188-images.html')

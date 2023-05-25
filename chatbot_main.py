@@ -40,7 +40,7 @@ def advice_exec():
     print('...')
     print("There! Ancient wisdom says:\n")
     time.sleep(1)
-    print(random.choice(proverb_twist))
+    print(random.choice(proverb_twist)) #can be replaced with proverbs variable imported above
     time.sleep(2)
     feedback = input('Was that helpful?\n')
     feedback_clean = feedback.lower().translate(str.maketrans(' ', ' ', string.punctuation)).split()

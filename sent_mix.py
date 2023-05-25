@@ -1,8 +1,6 @@
 from corpus_animal import *
 from corpus_misc import *
 from corpus_ros import *
-import re
-import string
 import itertools
 import random
 
